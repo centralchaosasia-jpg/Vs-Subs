@@ -1,27 +1,24 @@
-# Dependencies (Thư mục cài đặt thư viện)
-/node_modules
+# Dependencies
+**/node_modules
 /.pnp
 .pnp.js
 
-# Environment variables (Cực kỳ quan trọng: Giữ lại API Key không cho đẩy lên GitHub)
+# Environment variables
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-*.env
+.env.*
+!.env.example
 
-# Production builds (Thư mục xuất file chạy)
+# Production builds
 /build
 /dist
 
-# Logs (File ghi nhận lỗi)
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# Cấu hình Trình soạn thảo & Hệ điều hành
+# Editor & OS
 .vscode/
 .idea/
 .DS_Store
